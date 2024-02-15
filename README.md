@@ -58,6 +58,17 @@ Before running the script, make sure you have the following installed:
   ```
 The script will run continuously and check the weather forecast every day at the specified time (configured in the schedule.every().day.at() function).
 
+## Future Works
+Here are some potential future enhancements for this project:
+
+- Implement user input for location instead of hardcoding it.
+- Add support for multiple email recipients.
+- Enhance the email content with additional weather details.
+- Implement logging to keep track of script execution and errors.
+- Add implementation via `crontab` for scheduling instead of using the `schedule` library.
+
+Feel free to contribute to this project or suggest new features!!
+
 ## Notes:-
 
 Make sure to replace `your_tomorrow_io_api_key`, `your_gmail_app_password`, and `your_gmail_username` with your actual values.
