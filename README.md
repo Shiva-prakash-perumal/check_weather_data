@@ -60,7 +60,7 @@ The script will run continuously and check the weather forecast every day at the
 
 ## Notes:-
 
-Make sure to replace your_tomorrow_io_api_key, your_gmail_app_password, and your_gmail_username with your actual values.
+Make sure to replace ### your_tomorrow_io_api_key, ### your_gmail_app_password, and ### your_gmail_username with your actual values.
 You may need to allow less secure apps or generate an app password for your Gmail account to use SMTP authentication.
 Adjust the time in the schedule.every().day.at() function to match your desired reminder time.
 
