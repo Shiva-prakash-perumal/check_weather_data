@@ -42,7 +42,7 @@ def umbrellaReminder():
     else:
         print("Unable to retrieve weather information.")
 # Every day at 06:00AM time umbrellaReminder() is called.
-schedule.every().day.at("13:33").do(umbrellaReminder)
+schedule.every().day.at("06:00").do(umbrellaReminder)
 
 while True:
     schedule.run_pending()
