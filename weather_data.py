@@ -28,8 +28,7 @@ def umbrellaReminder():
             # Authentication
             smtp_object.login(user_email, app_password)
             subject = "Umbrella Reminder"
-            body = f"Take an umbrella before leaving the house.\
-            Weather condition for today is rainy in HARRISON."
+            body = f"Take an umbrella before leaving the house."
             msg = f"Subject:{subject}\n\n{body}\n\nRegards,\nGeeksforGeeks".encode(
                 'utf-8')
 
