@@ -30,30 +30,24 @@ Before running the script, make sure you have the following installed:
    On Windows:
    ```bash
    venv\Scripts\activate
-  On macOS/Linux:
-  ```bash
+
+   On macOS/Linux:
+   ```bash
   source venv/bin/activate
 
 5. Install the required Python packages:
    ```bash
     pip install -r requirements.txt
 
-Create a .env file in the project directory and add the following variables:
-
-env
-Copy code
-API_KEY=your_tomorrow_io_api_key
-APP_PASSWORD=your_gmail_app_password
-SMTP_USERNAME=your_gmail_username
-Usage
+6. Create a .env file in the project directory and add the following variables:
+   ```bash
+   touch .env
+   ```bash .env
+    API_KEY=your_tomorrow_io_api_key
+    APP_PASSWORD=your_gmail_app_password
+    SMTP_USERNAME=your_gmail_username
+   
+## Usage
 To run the script:
-
-bash
-Copy code
-python weather_umbrella_reminder.py
-The script will run continuously and check the weather forecast every day at the specified time (configured in the schedule.every().day.at() function).
-
-Notes
-Make sure to replace your_tomorrow_io_api_key, your_gmail_app_password, and your_gmail_username with your actual values.
-You may need to allow less secure apps or generate an app password for your Gmail account to use SMTP authentication.
-Adjust the time in the schedule.every().day.at() function to match your desired reminder time.
+   ```bash
+   python weather_umbrella_reminder.py
