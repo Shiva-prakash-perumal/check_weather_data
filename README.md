@@ -60,9 +60,9 @@ The script will run continuously and check the weather forecast every day at the
 
 ## Notes:-
 
-Make sure to replace ### your_tomorrow_io_api_key, ### your_gmail_app_password, and ### your_gmail_username with your actual values.
+Make sure to replace `your_tomorrow_io_api_key`, `your_gmail_app_password`, and `your_gmail_username` with your actual values.
 You may need to allow less secure apps or generate an app password for your Gmail account to use SMTP authentication.
-Adjust the time in the schedule.every().day.at() function to match your desired reminder time.
+Adjust the time in the `schedule.every().day.at()` function to match your desired reminder time.
 
 
 This README.md file provides detailed instructions on setting up the project, including cloning the repository, creating a virtual environment, installing dependencies from the `requirements.txt` file, setting up environment variables, and running the script. The hyperlink for Tomorrow.io has been added to the introduction section.
