@@ -17,6 +17,6 @@ Before running the script, make sure you have the following installed:
 ## Setup
 
 Clone the repository to your local machine:
-   ```bash
-   git clone <repository-url>```
+  
+   git clone <repository-url>
 
