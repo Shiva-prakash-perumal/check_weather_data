@@ -54,7 +54,7 @@ Before running the script, make sure you have the following installed:
 ## Usage
   To run the script:
   ```bash
-  python weather_umbrella_reminder.py
+  python weather_data.py
   ```
 The script will run continuously and check the weather forecast every day at the specified time (configured in the schedule.every().day.at() function).
 
