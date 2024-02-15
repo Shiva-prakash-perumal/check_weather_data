@@ -18,7 +18,7 @@ Before running the script, make sure you have the following installed:
 
 1. Clone the repository to your local machine:
    ```bash
-   git clone <repository-url>
+   git clone [<repository-url>](https://github.com/Shiva-prakash-perumal/check_weather_data.git)
 2. Navigate to the project directory in loacal:
    ```bash
    cd weather-umbrella-reminder
