@@ -20,4 +20,3 @@ Clone the repository to your local machine:
    ```bash
    git clone <repository-url>```
 
-1. Navigate to the project directory:
